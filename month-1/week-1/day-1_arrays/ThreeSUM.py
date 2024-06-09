@@ -19,6 +19,6 @@ class Solution:
                 r_b += 1
                 r_a += 1
             l += 1
-            r_a += 1
-            r_b += 1
+            r_a = l + 1
+            r_b = l + 2
         print(output)
